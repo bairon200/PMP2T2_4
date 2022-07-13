@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="PMP2T2_4.MainPage">
+    <StackLayout>
+        <Label Text="VIDEO"
+               FontSize="Title"
+               HorizontalTextAlignment="Center"
+               x:Name="lblTitulo" />
+        <Entry Placeholder="descripcion"
+               x:Name="txtDescripcion" />
+        <Button x:Name="btnGrabar"
+                Text="Grabar"
+                Clicked="btnGrabar_Clicked"
+                CornerRadius="30"
+                BackgroundColor="#222124"
+                TextColor="#ECEAE4"
+                FontAttributes="Bold" />
+        <Button x:Name="btnGuardar"
+                Text="Guardar"
+                Clicked="btnGuardar_Clicked" 
+                 CornerRadius="30"
+                 BackgroundColor="#222124"
+                 TextColor="#ECEAE4"
+                 FontAttributes="Bold" />
+        <Button x:Name="btnLista"
+                Text="Lista"
+                Clicked="btnLista_Clicked"
+                CornerRadius="30"
+                BackgroundColor="#222124"
+                TextColor="#ECEAE4"
+                FontAttributes="Bold" />
+        <Label Text="@ Bairon Vallecillo 201910050106"
+               HorizontalTextAlignment="Center"
+               TextColor="#222124"
+               FontSize="10" />
+    </StackLayout>
+</ContentPage>
